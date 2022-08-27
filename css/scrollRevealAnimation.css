@@ -1,0 +1,65 @@
+/* Right, Left, Up And Bottom Window Scroll Animation " Start " */
+/* Right / Left - Right */
+/* Right / Left To Right Animation Use It class="leftToRight reveal" */
+.leftToRight
+{
+	position: relative;
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: 2s;
+}
+
+.leftToRight.active
+{
+	transform: translateX(0);
+    opacity: 1;
+}
+
+/* Left / Right - Left */
+/* Left / Right To Left Animation Use It class="rightToLeft reveal" */
+.rightToLeft
+{
+	position: relative;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 2s;
+}
+
+.rightToLeft.active
+{
+	transform: translateX(0);
+    opacity: 1;
+}
+
+/* Up / Bottom - Up */
+/* Up / Bottom To Up Animation Use It class="bottomToUp reveal" */
+.bottomToUp
+{
+	position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 2s;
+}
+
+.bottomToUp.active
+{
+	transform: translateY(0);
+    opacity: 1;
+}
+
+/* Bottom / Up - Bottom */
+/* Bottom / Up To Bottom Animation Use It class="upToBottomdown reveal" */
+.upToBottomdown
+{
+	position: relative;
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: 2s;
+}
+
+.upToBottomdown.active
+{
+	transform: translateY(0);
+    opacity: 1;
+}
+/* Right, Left, Up And Bottom Window Scroll Animation " End " */
